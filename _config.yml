@@ -7,3 +7,6 @@ github_username:  kevin-ohara
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
