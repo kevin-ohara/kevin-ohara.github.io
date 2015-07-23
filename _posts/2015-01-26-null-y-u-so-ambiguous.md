@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Null, y u so ambiguous!"
+comments: true
 date:   2015-01-26 19:04:39
 categories: code
 ---

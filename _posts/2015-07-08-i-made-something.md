@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "I Made Something"
+comments: true
 date:   2015-07-08 21:51:31
 categories: code
 ---

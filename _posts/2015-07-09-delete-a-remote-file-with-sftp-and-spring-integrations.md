@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Delete a Remote File with SFTP and Spring Integrations"
+comments: true
 date:   2015-07-09 10:24:39
 categories: code
 ---
