@@ -40,11 +40,15 @@ Essentially we need to manually tell Java that this is a trusted server, we can 
 $ openssl s_client -connect my.domain.to.test:10636
 ```
 
-This will return some data and you want to grab the lines that start with ---BEGIN CERTIFICATE--- and end with ---END CERTIFICATE---.  Copy these into a file and save it somewhere with a .crt extension e.g. ldapca.crt  Now that we have the certificate from the the server we can add it to the trusted sources in our JRE
+This will return some data and you want to grab the lines that start with
+---BEGIN CERTIFICATE---
+blahblahblah
+---END CERTIFICATE---  
+Copy these into a file and save it somewhere with a .crt extension e.g. ldapca.crt  Now that we have the certificate from the the server we can add it to the trusted sources in our JRE
 
 ```
 $ cd $JRE_HOME/lib/security
-$ keytool -import -alias cacert -keystore cacerts -storepass <dir> -file ldapca.crt
+$ keytool -import -alias cacert -keystore cacerts -storepass changeit -file ldapca.crt
 ```
 
 So we now have a keystore that contains the LDAP server certificate. You can now try out SSLPoke again and pass this keystore in as a param
