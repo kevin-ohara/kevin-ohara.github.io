@@ -2,6 +2,7 @@
 layout: post
 title:  "Import a pfx keystore into a jks keystore"
 date:   2016-01-20 09:13:12
+comments: true
 categories: code
 ---
 
