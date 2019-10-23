@@ -1,5 +1,5 @@
 # Site settings
-title: Sometimes I like things...
+title: Sometimes I like (write) things...
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kevin-ohara.github.io" # the base hostname & protocol for your site
 twitter_username: kev_ohara
